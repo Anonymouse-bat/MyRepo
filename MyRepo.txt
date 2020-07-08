@@ -21,7 +21,6 @@ git clone : untuk menghubungkan dari git hub ke git bash dengan mengambil URLnya
 git remote : origin nama default
 git remote add <nama remote> 
 
-
 git config --global user.name "Anonymouse-bat"
 git config --global user.email "niki.dwijananto@mncgroup.com"
 
