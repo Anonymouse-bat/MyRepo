@@ -1,0 +1,28 @@
+$Istilah Git = [
+		'Repo' 		=> 'Folder Project Kita',
+		'Commit' 	=> 'Rekaman/Snapshot dari repo kita',
+		'Hash'		=> 'Penanda Unik pada sebuah commit',
+		'Checkout'	=> 'Berpindah ke sebuah commit',
+		'branch'	=> 'cabang dari sebuah commist',
+		'marge'		=> 'menggabungkan branch',
+		'remote'	=> 'sumber yang memiliki repo',
+		'clone'		=> 'mengambil repo dari remote',
+		'push'		=> 'mengirmkan commit',
+		'pull'		=> 'mengambil commit dari repo'
+		];
+
+alias graph="git log --all --decorate --oneline --graph" = " Untuk melihan graph di bash "
+git branch :  untuk membuat branch
+git branch -d (nama branch) : untuk menghapus branch
+git branch -D (nama branch) : untuk menghapus branch tanpa merge
+git checkout : untuk pindah2 branch
+git merge : untuk mengambungkan branch ke master
+git clone : untuk menghubungkan dari git hub ke git bash dengan mengambil URLnya
+git remote : origin nama default
+git remote add <nama remote> 
+
+
+git config --global user.name "Anonymouse-bat"
+git config --global user.email "niki.dwijananto@mncgroup.com"
+
+git config --list
