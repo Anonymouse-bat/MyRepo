@@ -19,7 +19,7 @@ git checkout : untuk pindah2 branch
 git merge : untuk mengambungkan branch ke master
 git clone : untuk menghubungkan dari git hub ke git bash dengan mengambil URLnya
 git remote : origin nama default
-git remote add <nama remote> 
+git remote add <nama remote> https://github.com/nikinik96/mypos_cibogo_kurnia_bersama.git
 
 git config --global user.name "Anonymouse-bat"
 git config --global user.email "niki.dwijananto@mncgroup.com"
